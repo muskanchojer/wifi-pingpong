@@ -1,0 +1,29 @@
+# Instructions to Play
+Follow these steps to get your two-player ping pong game running across two laptops on the same Wi-Fi network.
+
+## On the Server Laptop (Player 1)
+Step 1: Find Your Local IP Address: Find the local IP address of the computer that will act as the server.
+
+On Windows: Open Command Prompt and type ipconfig. Look for the "IPv4 Address" under your Wi-Fi adapter. 
+On macOS/Linux: Open the Terminal and type ifconfig or ip a. Look for the "inet" address with your Wi-Fi interface.
+
+Step 2: Run the Server Script.
+Open a terminal or command prompt, navigate to where you saved the file, and run it with the command:
+        python server.py
+The terminal will print "Waiting for a connection...". It is now waiting for Player 2 to join.
+
+## On the Client Laptop (Player 2)
+Step 3: Edit the Client Script with correct server IP.
+    Find the line in game.py that says SERVER_IP = "YOUR_SERVER_IP_HERE".
+    Replace "YOUR_SERVER_IP_HERE" with the actual local IP address you found in Step 1.
+Save the file.
+
+Step 4: Run the Client Script:
+Navigate to where you saved the game file, and run it:
+        python client.py
+The game should start on both screens simultaneously!
+
+# How to Play
+1. Player 1 (Server, Left Paddle): Use the W and S keys to move your paddle up and down.
+2. Player 2 (Game, Right Paddle): Use the Up Arrow and Down Arrow keys to move your paddle up and down.
+3. The first player to score 5 points wins. The game will close automatically when a player wins.
