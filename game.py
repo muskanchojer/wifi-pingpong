@@ -1,4 +1,3 @@
-# client.py
 import pygame
 import socket
 import pickle
@@ -19,7 +18,6 @@ BALL_RADIUS = 10
 PADDLE_SPEED = 7
 
 # --- Network Settings ---
-# !!! IMPORTANT: Change this to the server's local IP address !!!
 SERVER_IP = "YOUR_SERVER_IP_HERE"
 PORT = 65432
 
@@ -128,3 +126,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
