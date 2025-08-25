@@ -1,4 +1,3 @@
-# server.py
 import pygame
 import socket
 import pickle
@@ -21,7 +20,7 @@ BALL_SPEED_X = 5
 BALL_SPEED_Y = 5
 
 # Network settings
-HOST = '0.0.0.0'  # Listen on all available network interfaces
+HOST = '0.0.0.0'  # Listen on all network interfaces
 PORT = 65432
 
 # --- Game Setup ---
@@ -151,3 +150,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
