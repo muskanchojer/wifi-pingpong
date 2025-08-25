@@ -1,5 +1,5 @@
 # Instructions to Play
-Follow these steps to get your two-player ping pong game running across two laptops on the same Wi-Fi network.
+This is a two-player ping-pong game running across two laptops on the same Wi-Fi network.
 
 ## On the Server Laptop (Player 1)
 Step 1: Find Your Local IP Address: Find the local IP address of the computer that will act as the server.
@@ -26,4 +26,5 @@ The game should start on both screens simultaneously!
 # How to Play
 1. Player 1 (Server, Left Paddle): Use the W and S keys to move your paddle up and down.
 2. Player 2 (Game, Right Paddle): Use the Up Arrow and Down Arrow keys to move your paddle up and down.
+
 3. The first player to score 5 points wins. The game will close automatically when a player wins.
